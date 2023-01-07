@@ -1,0 +1,49 @@
+.heading{
+    background-color: gold;  
+    margin-top:-21px;  
+}
+#btn{
+    background-color: red;
+    font-weight:bold;
+    font-size: medium;
+    float:right;
+    margin:2px;
+    padding:10px;
+}
+#btn:hover{
+    background-color: green;
+    color:black;
+}
+.note{
+    display:inline-block;
+    margin:20px;
+    padding:5px;
+    height:120px;
+    background-color:rgb(138, 137, 231);
+}
+.text{
+    height:80px;
+    background-color: black;
+    color:white;
+}
+.operation{
+    float:right;
+}
+.edit{
+    margin:4px;
+    color:green;
+}
+.delete{
+    color:red;
+}
+.edit:hover{
+    color:black;
+    background-color:green;
+}
+.delete:hover{
+    color:black;
+    background-color:red;
+}
+.hidden{
+    display:none;
+}
